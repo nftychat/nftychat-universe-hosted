@@ -7944,20 +7944,9 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nftychat-universe@/Users/darianbailey/Desktop/coding_stuff/nftychat-universe/nftychat-universe-v1.1.0.tgz:
+nftychat-universe@./nftychat-universe-v1.1.0.tgz:
   version "1.1.0"
-  resolved "/Users/darianbailey/Desktop/coding_stuff/nftychat-universe/nftychat-universe-v1.1.0.tgz#ca68b913647d836884d2f9eef08e654c74070e84"
-  dependencies:
-    "@babel/core" "^7.19.3"
-    "@emotion/react" "^11.10.4"
-    "@emotion/styled" "^11.10.4"
-    "@iconify/react" "^3.2.2"
-    "@mui/material" "^5.10.7"
-    react-hot-toast "^2.3.0"
-
-"nftychat-universe@file:../nftychat-universe/nftychat-universe-v1.1.0.tgz":
-  version "1.1.0"
-  resolved "file:../nftychat-universe/nftychat-universe-v1.1.0.tgz#2c7f392886351f830086af0d3b287bdcca3979a0"
+  resolved "./nftychat-universe-v1.1.0.tgz#ac0b7ccceec66f41001606bf5cf383be5b7aa55d"
   dependencies:
     "@babel/core" "^7.19.3"
     "@emotion/react" "^11.10.4"
