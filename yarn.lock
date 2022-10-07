@@ -2215,7 +2215,7 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
-"@rollup/plugin-babel@^5.2.0", "@rollup/plugin-babel@^5.3.1":
+"@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
   integrity sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==
@@ -7955,17 +7955,15 @@ nftychat-universe@/Users/darianbailey/Desktop/coding_stuff/nftychat-universe/nft
     "@mui/material" "^5.10.7"
     react-hot-toast "^2.3.0"
 
-nftychat-universe@^1.1.0:
+"nftychat-universe@file:../nftychat-universe/nftychat-universe-v1.1.0.tgz":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nftychat-universe/-/nftychat-universe-1.1.0.tgz#797ef765e7ca7ba4c284be983f20488cf2d25644"
-  integrity sha512-ybZOU4+Qql5+a2v7z87uOm1VMj9oz5RW8QfYAqglyikiOXDTkHoSJXpauyqxT/yIJFf+yRMdGGSkcBE5AiS9Ew==
+  resolved "file:../nftychat-universe/nftychat-universe-v1.1.0.tgz#2c7f392886351f830086af0d3b287bdcca3979a0"
   dependencies:
     "@babel/core" "^7.19.3"
     "@emotion/react" "^11.10.4"
     "@emotion/styled" "^11.10.4"
     "@iconify/react" "^3.2.2"
     "@mui/material" "^5.10.7"
-    "@rollup/plugin-babel" "^5.3.1"
     react-hot-toast "^2.3.0"
 
 no-case@^3.0.4:
