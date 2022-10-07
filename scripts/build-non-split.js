@@ -13,6 +13,10 @@ config.optimization.runtimeChunk = false;
 
 
 config.plugins = (config.plugins || []).concat([
+  new webpack.ProvidePlugin({
+    process: "process/browser",
+    Buffer: ["buffer", "Buffer"],
+  }),
   new webpack.optimize.LimitChunkCountPlugin({
     maxChunks: 1,
   }) 
