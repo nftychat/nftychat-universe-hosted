@@ -19,6 +19,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/main.js")
+@app.get("/universal_support.js")
 @app.get("/universal_dm.js")
 async def get_universal_dm_js():
     filename = "./build/static/js/main.js"
@@ -32,6 +34,8 @@ async def get_universal_dm_js():
     content_type, _ = guess_type(filename)
     return Response(content, media_type=content_type)
 
+@app.get("/main.css")
+@app.get("/universal_support.css")
 @app.get("/universal_dm.css")
 async def get_universal_dm_css():
     filename = "./build/static/css/main.css"

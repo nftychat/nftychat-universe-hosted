@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {UniversalDm} from 'nftychat-universe'
+import {UniversalDm, UniversalSupport} from 'nftychat-universe'
 
 const dm_div = document.getElementById("nfty_universal_dm");
-const dm_root = ReactDOM.createRoot(div);
+const dm_root = ReactDOM.createRoot(dm_div);
 dm_root.render(
   <React.StrictMode>
     <UniversalDm
@@ -16,7 +16,7 @@ dm_root.render(
 
 
 const support_div = document.getElementById("nfty_universal_support");
-const support_root = ReactDOM.createRoot(div);
+const support_root = ReactDOM.createRoot(support_div);
 support_root.render(
   <React.StrictMode>
     <UniversalSupport
