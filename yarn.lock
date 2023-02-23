@@ -6659,6 +6659,11 @@ is-hex-prefixed@1.0.0:
   resolved "https://registry.yarnpkg.com/is-hex-prefixed/-/is-hex-prefixed-1.0.0.tgz#7d8d37e6ad77e5d127148913c573e082d777f554"
   integrity sha512-WvtOiug1VFrE9v1Cydwm+FnXd3+w9GaeVUss5W4v/SLy3UW00vP+6iNF2SdnfiBoLy4bTqVdkftNGTUeOFVsbA==
 
+is-hotkey@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/is-hotkey/-/is-hotkey-0.2.0.tgz#1835a68171a91e5c9460869d96336947c8340cef"
+  integrity sha512-UknnZK4RakDmTgz4PI1wIph5yxSs/mvChWs9ifnlXsKuXgWmOkY/hAE0H/k2MIqH0RlRye0i1oC07MCRSD28Mw==
+
 is-module@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-module/-/is-module-1.0.0.tgz#3258fb69f78c14d5b815d664336b4cffb6441591"
@@ -7944,16 +7949,33 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-nftychat-universe@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/nftychat-universe/-/nftychat-universe-1.2.0.tgz#9e2a837e0bfff62fff6f93133840b09774dc58d7"
-  integrity sha512-HCXHdSVH6XqWlXRljdcxdgs3hdzTJEL7cox6s121Zm+6ewO0M9DQGVeQEzAM6jM9h74mnEzVS3OpVpqa2CjzyQ==
+nftychat-universe@^1.4.6:
+  version "1.4.12"
+  resolved "https://registry.yarnpkg.com/nftychat-universe/-/nftychat-universe-1.4.12.tgz#60392a49eb64496240131a4700ae9a646d83e60d"
+  integrity sha512-a/NzmcSK7tVk8rItW/4pp+Um5r9Rc3OTvvErEy2nDpKgvgDXqQ35Lna+chzsmmzeLDcOY6WmhhyvH7b0vTUQSw==
   dependencies:
     "@babel/core" "^7.19.3"
     "@emotion/react" "^11.10.4"
     "@emotion/styled" "^11.10.4"
     "@iconify/react" "^3.2.2"
     "@mui/material" "^5.10.7"
+    buffer "^6.0.3"
+    nftychat-universe "^1.4.6"
+    react-hot-toast "^2.3.0"
+
+nftychat-universe@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/nftychat-universe/-/nftychat-universe-2.1.2.tgz#243a8923d9f4e5c64e4f150c09c952aaccdc032c"
+  integrity sha512-TQxWpKugcYt50QBjue/nFHDGFdK3MtmUav3/Xe7lwbi6CHrlU15r0c06qL/2A02rkfSKimKVO4mt6ZlihZmLHw==
+  dependencies:
+    "@babel/core" "^7.19.3"
+    "@emotion/react" "^11.10.4"
+    "@emotion/styled" "^11.10.4"
+    "@iconify/react" "^3.2.2"
+    "@mui/material" "^5.10.7"
+    buffer "^6.0.3"
+    is-hotkey "^0.2.0"
+    nftychat-universe "^1.4.6"
     react-hot-toast "^2.3.0"
 
 no-case@^3.0.4:

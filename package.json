@@ -9,7 +9,7 @@
     "buffer": "^6.0.3",
     "cross-env": "^7.0.3",
     "ethers": "^5.7.1",
-    "nftychat-universe": "^1.2.0",
+    "nftychat-universe": "^2.1.2",
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-app-rewired": "^2.2.1",
