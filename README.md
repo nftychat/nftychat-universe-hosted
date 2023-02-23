@@ -1,7 +1,8 @@
-Deprecated
 # nftychat-embed
 
-Embed nftychat on any website
+Embed nftychat on any website.
+
+Hosted version of nftychat-universe
 
 See example_site.html for a how to
 
